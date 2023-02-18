@@ -1,35 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <title>Baska e Futs</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/unastico.jpg" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Baska e Futs</a>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <a class="navbar-brand" href="#">Baska e Futs</a>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#criadores">Criadores</a>
+          <a class="nav-link" href="#integrantes">Integrantes</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#melhores-momentos">Melhores Momentos</a>
         </li>
       </ul>
     </div>
+    <div class="menu-lateral" id="menu-lateral">
+      <ul>
+        <li><a href="#criadores">Criadores</a></li>
+        <li><a href="#melhores-momentos">Melhores Momentos</a></li>
+      </ul>
+    </div>
   </nav>
-
   <div class="container mt-5">
     <div class="jumbotron">
-      <h1 class="display-4">Bem-vindo a Baska e Futs!</h1>
-      <p class="lead">Aqui você encontrará os melhores momentos do nosso grupo.</p>
+      <h1 class="display-4 text-center">Bem-vindo a Baska e Futs!</h1>
+      <p class="lead text-center">Aqui você encontrará os melhores momentos do nosso grupo.</p>
     </div>
   </div>
 
@@ -40,19 +47,29 @@
     <div class="card-body">
       <h5 class="card-title">Venha fazer parte!</h5>
       <p class="card-text">Diversão, baska e muito fut, tiração de pira sem fim.</p>
-      <a href="https://chat.whatsapp.com/JZOyQBT0v1V4G2MPQm1MIh" target="_blank" class="btn btn-primary">Entrar (Laele)</a>
+      <i class="fa fa-whatsapp"></i>
+      <a href="https://chat.whatsapp.com/JZOyQBT0v1V4G2MPQm1MIh" target="_blank" class="btn btn-primary">Quero entrar! (Laele)</a>
     </div>
   </div>
 </div>
   </div>
 
-  <div class="container mt-5" id="criadores">
-<div class="card round-card text-center">
-  <img class="card-img-top" src="img/criadores.jpg" style="border-radius: 50%; width:20% " alt="Foto do criador">
-  <div class="card-body">
-    <h5 class="card-title">Nome do Criador</h5>
-    <p class="card-text">Descrição do criador</p>
+<div class="x-panel col" id="integrantes" style="display: flex;">
+  <div class="card round-card text-center d-flex" style="width: 50%;">
+    <div class="card-body">
+      <img class="card-img-top" src="img/criadores.jpg" style="border-radius: 30%; width:30%" alt="">
+      <h5 class="card-title">Criadores</h5>
+      <p class="card-text">Alef, Borchardt, Murilo</p>
+    </div>
+  </div>
+  <div class="card round-card text-center d-flex" style="width: 50%;">
+    <div class="card-body">
+      <img class="card-img-top" src="img/alan.jpeg" style="border-radius: 30%; width:30%" alt="">
+      <h5 class="card-title">Goleiro Fumaça</h5>
+      <p class="card-text">Alan</p>
+    </div>
   </div>
 </div>
+<script src="scripts.js"></script>
 </body>
 </html>
