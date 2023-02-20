@@ -1,5 +1,4 @@
 html{
-    background-color:black;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -46,3 +45,52 @@ p{
 left: 0;
 }
 
+.time{
+    background-image: url(img/campo.jpg);
+    width: 50%;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+
+
+.jogador-ataque {
+    flex-wrap: wrap;
+  order: 1;
+}
+
+.jogador-defesa {
+  order: 2;
+}
+
+.jogador-goleiro {
+  order: 3;
+}
+
+.card {
+  width: 12rem;
+  margin: 5px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  #integrantes {
+    flex-direction: column;
+  }
+  
+  
+}
+.jogador-ataque{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.jogador-defesa{
+    display: inline-flex;
+}
+.card-jogador-goleiro {
+  display: inline-block;
+}
