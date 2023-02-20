@@ -21,9 +21,13 @@ h2{
     font-size: medium;
 }
 section{
-    background-color: rgb(0, 197, 197);
+    background-color: rgba(233, 255, 255, 0.829);
     box-shadow: inset 0 0 10px 10px black;
     border-radius: 19px;
+}
+
+.login{
+  background-color: rgba(233, 255, 255, 0.829)
 }
 
 p{
@@ -93,4 +97,54 @@ left: 0;
 }
 .card-jogador-goleiro {
   display: inline-block;
+}
+
+.login {
+    margin-top: 20px;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.logoLogin img {
+    display: block;
+    margin: 0 auto;
+    max-width: 170px;
+    margin-bottom: 30px;
+}
+
+.login-box {
+    padding: 35px;
+    width: 100%;
+}
+
+.formLogin .form-group label {
+    font-weight: 600;
+    color: #888;
+}
+
+.formLogin input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.formLogin button {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.formLogin button:hover {
+    background-color: #333;
+}
+
+.texto-login{
+  padding: 15rem;
 }
