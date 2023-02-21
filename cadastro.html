@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
@@ -20,7 +19,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="cadastro.html">Cadastro</a>
+          <a class="nav-link" href="login.html">Login</a>
         </li>
       </ul>
     </div>
@@ -29,23 +28,24 @@
       <div class="login">
       <div class="logoLogin">
         <h4 class="text-center h4">Baska e Futs</h3>
-        <img src="img/unastico.jpg" alt="" class="">
-      </div>
       <div class="login-box borderLogin">
         <form id="login-forms" class="login-form formLogin">
           <div class="login-form" >
-            <h4 class="h4 text-center text-login">Faça seu Login</h4>
+            <h4 class="h4 text-center text-login">Faça seu cadastro</h4>
             <div class="form-group">
-              <label class="control-label">Usuário</label>
-              <input name="user" class="form-control" type="text" placeholder="Usuário:" autofocus required>
+              <input type="text" class="form-control" id="inputNome" placeholder="Nome" required>
             </div>
             <div class="form-group">
-              <label class="control-label">Senha</label>
-              <input name="password" class="form-control" type="password" placeholder="Senha:" required>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
             </div>
-            <br>
-            <div class="form-group btn-container">
-              <button type="submit" class="btn btn-dark btn-block"><i class="fa fa-sign-in fa-lg fa-fw"></i>Entrar</button>
+            <div class="form-group">
+              <input type="password" class="form-control" id="inputSenha" placeholder="Senha" required>
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="confirmacao-senha" name="confirmacao-senha" placeholder="Repita a senha" required>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn botao-enviar">Cadastrar</button>
             </div>
           </div>
         </form>
